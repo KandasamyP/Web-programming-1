@@ -1,0 +1,20 @@
+.error {
+    color: #ff0000;
+}
+
+main {
+	max-width: 90%;
+	margin: auto;
+}
+
+label {
+	font-weight: bold;
+}
+
+#login-form input{
+    margin: 25px;
+}
+
+#privateUser div {
+    margin: 25px;
+}
