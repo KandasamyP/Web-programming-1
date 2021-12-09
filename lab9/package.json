@@ -1,0 +1,16 @@
+{
+  "name": "lab9",
+  "version": "1.0.0",
+  "description": "My lab9 module",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "node app.js"
+  },
+  "author": "Kandasamy Parthasarathy 10473056",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}

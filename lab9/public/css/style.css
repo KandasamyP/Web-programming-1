@@ -1,0 +1,68 @@
+.is-prime {
+    color: #00E676;
+}
+
+.not-prime {
+    color: #FF3D00;
+}
+
+.error {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+body {
+    background: #fefefe;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 15pt;
+}
+
+header {
+    top: 0;
+}
+
+main {
+	max-width: 90%;
+	margin: auto;
+}
+
+#fibNo {
+    margin: 15px;
+}
+
+#submitFibButton {
+    display: block;
+    margin: 50px 20%;
+}
+
+label {
+	font-weight: bold;
+}
+
+#results {
+    line-height: 180%;
+}
+
+#results>li {
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#fibonacciForm {
+	width: 75%;
+	border-bottom: 1px dashed #333;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    border-top: 1px dashed #333;
+}
