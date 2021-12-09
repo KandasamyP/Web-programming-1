@@ -1,0 +1,22 @@
+<article class="searchTermContainer">
+    <p class="aboutSite">This site allows you to find using search term and by using search ID in TV Maze Api and it displays maximum of 20 shows per search term.</p>
+
+    <h1>{{ title }}</h1>
+    <form action="/search" method="POST" class="searchTermform">
+        <label for="searchTerm">
+            Search Term
+            <input id="searchTerm" type="text" name="searchTerm" placeholder="Search term by name" class="full-width-input"/>
+        </label> 
+
+        <button type="submit" id="searchTermButton">Submit</button>
+    </form>
+
+    {{#if hasErrors}}
+        <p class="error"> {{errors}} </p>
+    {{/if}}
+
+    {{#if hasNoResponseError}}
+        <p class="not-found"> We're sorry, but no results were found for {{searchTerm}}. </p>
+    {{/if}}
+
+</article>

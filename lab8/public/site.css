@@ -1,0 +1,79 @@
+.error, .not-found {
+    color: #ff0000;
+}
+
+main {
+	max-width: 90%;
+	margin: auto;
+}
+
+#searchTerm {
+    margin: 15px;
+}
+
+#searchTermButton {
+    display: block;
+    margin: 50px 50%;
+}
+
+.searchTermContainer {
+	width: 75%;
+	border-bottom: 1px dashed #333;
+}
+
+.searchTermContainer>h1 {
+    text-align: center;
+}
+
+.searchTermContainer .aboutSite {
+    color: darkblue;
+}
+
+label {
+	font-weight: bold;
+}
+
+#searchByTerm {
+    font-style: italic;
+}
+
+#searchByTerm>ul {
+    line-height: 180%;
+}
+
+#searchByTerm>li {
+    margin: 5px;
+}
+
+#searchByTerm>h1 {
+    text-align: center;
+}
+
+#searchByTerm>h2 {
+    color: grey;
+}
+
+#showsByIDContainer {
+	width: 75%;
+	border-bottom: 1px dashed #333;
+}
+
+#showsByIDContainer dl>dd {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#showsByIDContainer dl>dt {
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#showsByIDContainer>img {
+    margin: 30px;
+}
+
+#showsByIDContainer>h1 {
+    font-style: italic;
+    text-align: center;
+}

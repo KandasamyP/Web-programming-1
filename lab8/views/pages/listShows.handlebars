@@ -1,0 +1,50 @@
+<div id="showsByIDContainer"> 
+    <h1>{{ showsListById.name }}</h1> 
+    <img alt= "{{ showsListById.image.original }}" src="{{ showsListById.image.medium }}"/> 
+    <dl> 
+        <dt>Language</dt> 
+        {{#if showsListById.language}}
+            <dd>{{ showsListById.language }}</dd>
+        {{else}}
+            <dd>NA</dd> 
+        {{/if}}
+
+        <dt>Genres</dt> 
+        {{#if showsListById.genres.length}}
+            <dd> 
+                <ul> 
+                    {{#each showsListById.genres}}
+                        <li>{{this}}</li> 
+                    {{/each}}
+                </ul>   
+            </dd>
+        {{else}}
+            <dd>NA</dd> 
+        {{/if}}
+
+        <dt>Average Rating</dt> 
+        {{#if showsListById.rating.average}}
+            <dd>{{ showsListById.rating.average }}</dd> 
+        {{else}}
+            <dd>NA</dd>
+        {{/if}}
+
+        
+        <dt>Network</dt> 
+        {{#if showsListById.network.name}}
+            <dd>{{ showsListById.network.name }}</dd>
+        {{else}}
+            <dd>NA</dd> 
+        {{/if}}
+
+        
+        <dt>Summary</dt> 
+        {{#if showsListById.summary}}
+            <dd>{{ showsListById.summary}}</dd>
+        {{else}}
+            <dd>NA</dd> 
+        {{/if}}
+
+    </dl> 
+</div> 
+ 
